@@ -1,0 +1,13 @@
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+
+sudo apt install python3.11-venv
+
+python3 -m venv venv/
+
+sudo apt-get install google-perftools
+
+./webui.sh --no-download-sd-model --no-hashing --use-cpu USE_CPU --lowram --always-batch-cond-uncond --upcast-sampling --no-half --skip-torch-cuda-test
+
+https://civitai.com/api/download/models/25186 (rMadArt)
+https://civitai.com/api/download/models/143906 (epiCRealism)
+https://civitai.com/api/download/models/51913 (Edge Of Realism)
