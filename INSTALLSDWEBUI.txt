@@ -6,7 +6,7 @@ python3 -m venv venv/
 
 sudo apt-get install google-perftools
 
-./webui.sh --no-download-sd-model --no-hashing --use-cpu USE_CPU --lowram --always-batch-cond-uncond --upcast-sampling --no-half --skip-torch-cuda-test
+./webui.sh --no-download-sd-model --no-hashing --theme dark --disable-model-loading-ram-optimization --disable-nan-check --disable-opt-split-attention --lowram --lowvram --no-half --skip-torch-cuda-test
 
 https://civitai.com/api/download/models/25186 (rMadArt)
 https://civitai.com/api/download/models/143906 (epiCRealism)
