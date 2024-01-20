@@ -8,8 +8,8 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init bash
 ~/miniconda3/bin/conda init zsh
 
-sudo apt install git google-perftools
-conda install conda-forge::gperftools
+sudo apt install git google-perftools ( if it does not show up still install )
+conda install conda-forge::gperftools ( Try First )
 
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
