@@ -8,8 +8,10 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init bash
 ~/miniconda3/bin/conda init zsh
 
-sudo apt install git google-perftools ( if it does not show up still install )
-conda install conda-forge::gperftools ( Try First )
+conda create -n SDCPUWEBUI python=3.10.6
+conda activate SDCPUWEBUI
+
+sudo apt install git google-perftools
 
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
@@ -17,3 +19,4 @@ cd stable-diffusion-webui
 ./webui.sh --no-download-sd-model --no-hashing --theme dark --disable-model-loading-ram-optimization --disable-nan-check --disable-opt-split-attention --lowram --lowvram --no-half --skip-torch-cuda-test
 
 https://civitai.com/api/download/models/201346 (epiCPhotoGasm - InPainting - Z)
+***PLACE THE MODEL IN THE FOLDER THAT SAYS STABLE-DIFFUION***
