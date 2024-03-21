@@ -18,7 +18,7 @@ cd stable-diffusion-webui
 
 ./webui.sh --no-download-sd-model --no-hashing --theme dark --disable-model-loading-ram-optimization --disable-nan-check --disable-opt-split-attention --lowram --lowvram --no-half --skip-torch-cuda-test
 
-https://civitai.com/api/download/models/201346 (epiCPhotoGasm - InPainting - Z)
+https://civitai.com/models/84335?modelVersionId=132935
 ((IF LINK UP GOES SLOW USE THIS ONE))
 https://huggingface.co/datasets/redflagrun/ModelsList/resolve/main/epicphotogasm_v4-inpainting.safetensors
 ***PLACE THE MODEL IN THE FOLDER THAT SAYS STABLE-DIFFUION***
