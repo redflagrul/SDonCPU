@@ -13,8 +13,8 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init bash
 ~/miniconda3/bin/conda init zsh
 
-conda create -n SDCPU python=3.10.6
-conda activate SDCPU
+conda create -n sdcpu python=3.10.6
+conda activate sdcpu
 
 sudo apt install git google-perftools
 
