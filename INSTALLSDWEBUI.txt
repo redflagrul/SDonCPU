@@ -1,3 +1,8 @@
+(if you want to use MiniConda)
+https://github.com/abbodi1406/vcredist
+https://docs.anaconda.com/miniconda/
+https://git-scm.com/downloads/win
+
 (Install Conda for Python ENVIR)
 
 mkdir -p ~/miniconda3
