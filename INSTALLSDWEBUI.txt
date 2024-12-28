@@ -21,8 +21,8 @@ sudo apt install git google-perftools
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 cd stable-diffusion-webui
 
-./webui.sh --no-download-sd-model --no-hashing --theme dark --disable-model-loading-ram-optimization --disable-nan-check --disable-opt-split-attention --lowram --lowvram --no-half --skip-torch-cuda-test
-
+(LINUX)./webui.sh --no-download-sd-model --no-hashing --theme dark --disable-model-loading-ram-optimization --disable-nan-check --disable-opt-split-attention --lowram --lowvram --no-half --skip-torch-cuda-test
+(WINDOWS) webui.bat --no-download-sd-model --no-hashing --theme dark --disable-model-loading-ram-optimization --disable-nan-check --disable-opt-split-attention --lowram --lowvram --no-half --skip-torch-cuda-test
 
 https://civitai.com/models/106055?modelVersionId=257666 ( Photomatix v3 LCM - Less Step's Less Guidance )
 ***PLACE THE MODEL IN THE FOLDER THAT SAYS STABLE-DIFFUION***
